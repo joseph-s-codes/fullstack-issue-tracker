@@ -157,7 +157,7 @@ gradle/
 gradle-wrapper.jar
 
 # =========================
-# IDEs (if not already included)
+# IDEs
 # =========================
 .idea/
 *.iml
