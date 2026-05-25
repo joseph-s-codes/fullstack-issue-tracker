@@ -141,3 +141,23 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# =========================
+# BACKEND (Spring Boot / Java)
+# =========================
+target/
+*.class
+*.jar
+*.war
+
+# Maven / Gradle
+.mvn/
+mvnw
+gradle/
+gradle-wrapper.jar
+
+# =========================
+# IDEs (if not already included)
+# =========================
+.idea/
+*.iml
