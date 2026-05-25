@@ -23,7 +23,7 @@ npm install
 
 ### Run the app
 
-``bash
+```bash
 npm run dev
 ```
 
