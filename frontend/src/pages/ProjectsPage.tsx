@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
-import Issues from "../components/Issues"
+import Projects from "../components/Projects";
 
-export default function IssuesPage() {
+export default function DashboardPage() {
   return (
     <div className="flex flex-col h-screen">
       <div className="h-16 border-b-3">
@@ -16,7 +16,7 @@ export default function IssuesPage() {
         </div>
 
         <main className="w-full border-l-3 bg-gray-700">
-          <Issues />
+          <Projects />
         </main>
       </div>
       
