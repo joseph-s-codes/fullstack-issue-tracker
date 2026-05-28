@@ -1,26 +1,23 @@
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
+import Dashboard from "../components/Dashboard"
 
 export default function DashboardPage() {
   return (
     <div className="flex flex-col h-screen">
-      <div className="h-16 bg-gray-800">
+      <div className="h-16 border-b-3">
         <Navbar />
       </div>
-      <div className="h-1 bg-black"></div>
-      
 
       <div className="flex flex-1">
         <div className="w-52 bg-gray-700">
           <Sidebar />
         </div>
 
-        <div className="w-1 bg-black"></div>
-
-        <div className="w-full bg-gray-700">
-          This will be the main page to interact with stuff
-          </div>
+        <main className="w-full border-l-3 bg-gray-700">
+          <Dashboard />
+        </main>
       </div>
       
 
